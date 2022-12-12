@@ -1,0 +1,284 @@
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('./fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/poppins-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('./fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('./fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* gentium-book-basic-regular - latin */
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/gentium-book-basic-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/gentium-book-basic-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* gentium-book-basic-700italic - latin */
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('./fonts/gentium-book-basic-v16-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/gentium-book-basic-v16-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 1238px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header{
+  background-color: #008F76;
+  padding: 30px 0;
+  margin-bottom: 98px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link-logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.wrapper-menu{
+  max-width: 855px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.nav-list{
+  display: flex;
+  max-width: 660px;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-link{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+  color: #F5F5FF;
+  text-decoration: none;
+}
+.menu-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 10px;
+}
+.intro{
+  background-color: linear-gradient(180deg, #FFFFFF 0%, #F6F5FF 100%);
+}
+.intro-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-text{
+  font-family: 'Gentium Basic';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.intro-text-span{
+  font-style: normal;
+  color: #008F76;
+}
+
+.intro-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 200%;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 48px;
+}
+.intro-title-span{
+  color: #008F76;
+}
+.intro-btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 508px;
+  width: 100%;
+  margin-bottom: 19px;
+}
+.intro-btn{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: center;
+  color: #008F76;
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #008F76;
+}
+.btn-active{
+  background-color: #008F76;
+  color: #fff;
+}
+.intro-btn-img{
+  display: block;
+  margin-left: 10px;
+}
+.intro-btn:last-child .intro-btn-img{
+  background-color: #fff;
+}
+.intro-btn:hover{
+  background-color: #008F76;
+  color: #fff;
+}
+.intro-img{
+  max-width: 1238px;
+  width: 100%;
+  height: 480px;
+}
+.harus{
+  padding: 100px 0;
+  background-color: linear-gradient(180deg, #F6F5FF 0%, #FFFFFF 100%);
+}
+.harus-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 48px;
+}
+.harus-title-span{
+  color: #008F76;
+}
+.harus-list{
+  max-width: 1238px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 39px;
+}
+.harus-item{
+  max-width: 596px;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 5px;
+  padding: 30px;
+}
+.harus-item-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #212121;
+  margin-bottom: 24px;
+}
+.harus-item-wrapper{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 368px;
+  width: 100%;
+}
+.card-img-one{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.harus-item-block{
+  max-width: 272px;
+}
+.harus-item-block-title{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  color: #212121;
+}
+
+.harus-item-block-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #949494;
+}
